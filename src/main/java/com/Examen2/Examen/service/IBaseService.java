@@ -2,7 +2,7 @@
 package com.Examen2.Examen.service;
 import java.util.List;
 import java.util.Optional;
-
+//Se crea la interfaz para la base del service
 public interface IBaseService<T,Y> {
     List<T> getAll();
     

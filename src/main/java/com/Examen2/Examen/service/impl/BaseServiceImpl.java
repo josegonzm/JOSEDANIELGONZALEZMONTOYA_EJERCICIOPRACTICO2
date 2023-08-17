@@ -5,7 +5,7 @@ import com.Examen2.Examen.service.IBaseService;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.data.repository.CrudRepository;
-
+//Se implementa la interfaz IBaseService y se asigna la funcion de los metodos
 public class BaseServiceImpl<T,Y> implements IBaseService<T,Y>{
     protected final CrudRepository<T,Y> repository;
     

@@ -5,7 +5,7 @@ import com.Examen2.Examen.entities.Vuelos;
 import com.Examen2.Examen.service.IVuelosService;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Service;
-
+//Se crea la clase que implementa el IVuelosService
 @Service
 public class VuelosServiceImpl extends BaseServiceImpl<Vuelos, Integer> implements IVuelosService{
     
