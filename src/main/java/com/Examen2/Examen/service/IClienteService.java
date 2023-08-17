@@ -1,5 +1,5 @@
 
-package com.Examen2.Examen.sevice;
+package com.Examen2.Examen.service;
 
 import com.Examen2.Examen.entities.Cliente;
 

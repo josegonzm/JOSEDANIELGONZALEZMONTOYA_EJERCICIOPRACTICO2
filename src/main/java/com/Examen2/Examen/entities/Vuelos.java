@@ -14,6 +14,7 @@ import lombok.Data;
 @Entity
 @Data
 @Table(name = "Vuelos")
+//Se crea la entidad vuelos
 public class Vuelos implements Serializable{
     private static final long serialVersionUID =1L;
     @Id

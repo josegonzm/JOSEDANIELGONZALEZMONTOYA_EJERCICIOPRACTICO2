@@ -1,5 +1,5 @@
 
-package com.Examen2.Examen.sevice;
+package com.Examen2.Examen.service;
 import java.util.List;
 import java.util.Optional;
 

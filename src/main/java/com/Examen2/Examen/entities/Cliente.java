@@ -9,12 +9,12 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import java.io.Serializable;
-import java.util.List;
 import lombok.Data;
 
 @Entity
 @Data
 @Table(name = "Cliente")
+//Codigo para la entidad Cliente
 public class Cliente implements Serializable{
     private static final long serialVersionUID =1L;
     @Id
@@ -26,7 +26,7 @@ public class Cliente implements Serializable{
     private String telefono;
     private String nombre_usuario;
     private String contrasena;
-    @ManyToOne
-    @JoinColumn(name = "id")
-    private List<Rol> id_rol;
+    @ManyToOne //Se llama a la tabla roles
+    @JoinColumn(name = "id_rol")
+    private Rol id_rol;
 }
